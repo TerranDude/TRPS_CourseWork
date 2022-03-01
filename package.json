@@ -1,0 +1,30 @@
+{
+  "name": "trps-coursework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "semantic-ui-css-patch",
+    "serve": "node index",
+    "start": "nodemon index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^3.6.3",
+    "bcryptjs": "^2.4.3",
+    "graphql": "^16.3.0",
+    "jsonwebtoken": "^8.5.1",
+    "kerberos": "^1.1.7",
+    "mongoose": "^6.2.1",
+    "mongos": "^0.0.0",
+    "PubSub": "^4.0.0",
+    "react-router-dom": "^6.2.1",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
